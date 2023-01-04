@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Hero />
+    <Make/> 
     <LargeCardDisplay
       v-for="cardInfo in largeCardInfo"
       :key="cardInfo.id"
